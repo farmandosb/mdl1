@@ -1,0 +1,37 @@
+.navbar{
+    box-shadow: none;
+}
+.collapse-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+.navbar-toggler{
+    right: 0;
+    left: unset;
+}
+.social{
+    opacity:.3;
+}
+
+
+.fixed-top2 {
+    position: fixed;
+    top: 0.5rem;
+    right: 0;
+    left: unset;
+    z-index: 1030;
+    background-color: rgb(247, 200, 46);
+    opacity: 1;
+    transition: 0.7s opacity;
+}
+
+.fade{
+    opacity:0;
+    transition: 0.7s opacity;
+
+}
+
+
+
