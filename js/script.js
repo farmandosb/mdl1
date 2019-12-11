@@ -38,11 +38,21 @@ window.addEventListener('scroll', function (e) {
 });
 
 let navlinks = document.querySelectorAll(".nav-item")
-console.log(navlinks)
+//console.log(navlinks)
 for (link in navlinks){
-    console.log(link)   
+    //console.log(link)   
     navlinks[link].addEventListener("click", (e)=>{
         //console.log("hola")
-        e.target.classList.add("active")
+        navlinks[link].classList.add("active")
     })
+    console.log(navlinks[link]) 
+}
+
+//animación para abrir nav
+
+body.addEventListener("click", ()=>{
+    openNav()
+})
+let openNav = ()=>{
+    document.querySelector(".navbar").style.height = "100px"
 }
