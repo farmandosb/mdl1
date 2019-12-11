@@ -32,6 +32,30 @@
     transition: 0.7s opacity;
 
 }
+.popup{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 20000;
+   
+}
+.popup-background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+    opacity: 0.9;
+    
+    
+}
+.close-x{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    
+}
 
 
 
