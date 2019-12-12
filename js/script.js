@@ -26,6 +26,20 @@ toggler.addEventListener("click", () => {
     popupbackground.classList.remove("invisible")
 
 })
+
+toggler2.addEventListener("click", () => {
+    //popup.style.display="block important!"
+    //popupbackground.style.display="block important"
+    //closex.style.display="block important"
+    popup.classList.add("visible")
+    popupbackground.classList.add("visible")
+    popup.classList.remove("invisible")
+    popupbackground.classList.remove("invisible")
+
+})
+
+
+
 // Referencia: http://www.html5rocks.com/en/tutorials/speed/animations/
 
 var last_known_scroll_position = 0;
