@@ -27,7 +27,7 @@
     transition: 0.7s opacity;
 }
 
-.fade{
+.fade2{
     opacity:0;
     transition: 0.7s opacity;
 
@@ -54,6 +54,4 @@
     font-size: 1.5rem;
     
 }
-
-
 

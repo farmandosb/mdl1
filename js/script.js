@@ -2,10 +2,10 @@ let yPosition = window.pageYOffset;
 //alert(yPosition)
 let toggler = document.querySelector("#toggler2")
 
-let closex = document.querySelector(".close-x")
-let popup = document.querySelector(".popup")
-let popupbackground = document.querySelector(".popup-background")
-
+//let closex = document.querySelector(".close-x")
+//let popup = document.querySelector(".popup")
+//let popupbackground = document.querySelector(".popup-background")
+/*
 closex.addEventListener("click", () => {
     //popup.style.display="none"
     //poupbackground.style.display="one"
@@ -16,30 +16,7 @@ closex.addEventListener("click", () => {
     popupbackground.classList.remove("visible")
 })
 //al clickear toggler mostrar popup
-toggler.addEventListener("click", () => {
-    //popup.style.display="block important!"
-    //popupbackground.style.display="block important"
-    //closex.style.display="block important"
-    popup.classList.add("visible")
-    popupbackground.classList.add("visible")
-    popup.classList.remove("invisible")
-    popupbackground.classList.remove("invisible")
-
-})
-
-toggler2.addEventListener("click", () => {
-    //popup.style.display="block important!"
-    //popupbackground.style.display="block important"
-    //closex.style.display="block important"
-    popup.classList.add("visible")
-    popupbackground.classList.add("visible")
-    popup.classList.remove("invisible")
-    popupbackground.classList.remove("invisible")
-
-})
-
-
-
+*/
 // Referencia: http://www.html5rocks.com/en/tutorials/speed/animations/
 
 var last_known_scroll_position = 0;
@@ -51,10 +28,11 @@ function opacityUp(t) {
 
 function doSomething(scroll_pos) {
     if (last_known_scroll_position >= 60) {
-        toggler.classList.remove("fade")
+        toggler.classList.remove("fade2")
+    
 
     } else if (last_known_scroll_position < 60) {
-        toggler.classList.add("fade")
+        toggler.classList.add("fade2")
 
     }
 
@@ -93,3 +71,4 @@ body.addEventListener("click", () => {
 let openNav = () => {
     document.querySelector(".navbar").style.height = "100px"
 }
+
